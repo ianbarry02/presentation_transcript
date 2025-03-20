@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- EDIT THIS PART — it determines what the tab says -->
+    <title>Silly Example Presentation</title>
+    <!-- not necessary to edit anything below -->
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <div class="toolbar-title">TEXT OPTIONS</div>
+        <label for="font-selector">Font:</label>
+        <select id="font-selector">
+            <option value="arial" selected>Arial</option>
+			<option value="opendyslexic">OpenDyslexic</option>
+			<option value="times-new-roman">Times New Roman</option>
+		</select>
+        
+        <label for="font-size-selector">Text Size:</label>
+        <button id="increase-font-size">+</button>
+        <button id="decrease-font-size">-</button>
+
+        <label for="font-color-selector">Text Color:</label>
+        <input type="color" id="font-color-selector" />
+
+        <button id="invert-color">Dark Mode</button>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="slide-container">
+                <img id="slide" src="images/Slide1.jpeg" alt="Slide 1">
+            <div class="navigation">
+                <button id="prev" onclick="prevSlide()">Previous Slide</button>
+                    <button id="next" onclick="nextSlide()">Next Slide</button>
+            </div>
+            <div id="transcript" class="transcript-container">
+                <div id="transcript">
+                    <h2>Slide 1 Title</h2>
+                    <p>Transcript for Slide 1...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

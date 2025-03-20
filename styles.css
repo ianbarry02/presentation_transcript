@@ -1,0 +1,81 @@
+/* not necessary to edit anything below */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 15vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 75vw;
+    padding: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide-container, .transcript-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-container {
+    text-align: center;
+    align-items: center;
+}
+
+.transcript-container {
+    padding-top: 5vh;
+}
+
+#slide {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Text toolbar */
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: #fff;
+    z-index: 1000;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(203, 85, 85, 0.1);
+}
+
+.toolbar label {
+    font-weight: bold;
+}
+
+.toolbar-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 2.5%;
+}
