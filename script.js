@@ -8,7 +8,7 @@ const slides = [
         image: 'images/Slide1.jpeg',
         alt: `A slide that reads "silly presentation: pictures of Sherlock Holmes and monkeys and one chimp" with a close-up picture of a newspaper clipping announcing that there have been recent monkey thefts`,
         title: `Silly Presentation`,
-        transcript: `Hello and welcome to this test presentation for Ian's March 2025 accessibility template.`
+        transcript: `Hello and welcome to this test presentation for Ian's March 2025 presentation transcript accessibility template.`
     },
     {
         image: 'images/Slide2.jpeg',
@@ -26,13 +26,13 @@ const slides = [
         image: 'images/Slide4.jpeg',
         alt: `An image of Jeremy Brett as Sherlock Holmes bending down to be face-to-face with a baboon skeleton. They are both in profile. The image is surrounded with text that repeatedly says "baboon skeleton".`,
         title: `Baboon Skeleton`,
-        transcript: `baboon skeleton baboon skeleton baboon skeleton baboon skeleton`
+        transcript: `I love baboons.`
     },
     {
         image: 'images/Slide5.jpeg',
         alt: `An image of Dr. Watson with his back to the camera gesturing with a walking stick at a taxidermied Diana monkey on a mantle. A caption reads "Watson poking at a Diana monkey".`,
         title: `Diana Monkey`,
-        transcript: `Watson's a monkey fan too!`
+        transcript: `Here is some extra text to show what a lot of text underneath a slide looks like. Including too much text and increasing the text size pushes the slide past the bottom of the toolbar and makes it difficult to see. That's a bug I need to fix. But for the most part, you can make the text pretty large and still view the slide alright. And if things get hard to see, refreshing the page resets the text/font settings.`
     },
     {
         image: 'images/Slide6.jpeg',
@@ -44,7 +44,7 @@ const slides = [
         image: 'images/Slide7.jpeg',
         alt: `A picture of the antagonist, Professor Presbury, behind a table at the front of a lecture hall. He is gathering papers. To the right of him, an articulated baboon skeleton stands on the table. More skeletons and skulls are behind him, lined up below a projector screen.`,
         title: `Baboon Skeleton`,
-        transcript: `baboon skeleton baboon skeleton baboon skeleton baboon skeleton`
+        transcript: `I still love baboons.`
     },
     // Copy and paste a slide chunk and edit as needed below!
 ];
