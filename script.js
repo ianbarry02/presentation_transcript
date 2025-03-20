@@ -12,9 +12,9 @@ const slides = [
     },
     {
         image: 'images/Slide2.jpeg',
-        alt: 'A picture of Jeremy Brett as Sherlock Holmes sitting at a desk holding a pocket watch. A taxidermied chimpanzee is in the background.',
+        alt: 'A picture of Jeremy Brett as Sherlock Holmes sitting at a desk holding a pocket watch. A prop resembling a taxidermied chimpanzee is in the background.',
         title: `Chimp`,
-        transcript: `Here is Sherlock Holmes (Jeremy Brett) with a taxidermied chimp.`
+        transcript: `Here is Sherlock Holmes (Jeremy Brett) with a chimp prop.`
     },
     {
         image: 'images/Slide3.jpeg',
